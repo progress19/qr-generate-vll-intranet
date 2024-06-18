@@ -20,7 +20,7 @@ export default function Home() {
 
   return (
     <div>
-      <h1>QR Code Generator</h1>
+      <h1>QR Code Generator - VLL-Intranet</h1>
       <input
         type="text"
         value={text}

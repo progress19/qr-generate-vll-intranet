@@ -8,7 +8,7 @@ export async function GET(request) {
   const text = searchParams.get('text');
 
   if (!text) {
-    return NextResponse.json({ error: 'Text query parameter is required' }, { status: 400 });
+    return NextResponse.json({ error: 'Data query parameter is required' }, { status: 400 });
   }
 
   try {
